@@ -17,7 +17,7 @@ public class BaseDaoFactory {
     private String sqliteDatabasePath;
     private BaseDaoFactory(){
         //可以先判断有没有SD卡
-        sqliteDatabasePath="data/data/org.alie.dbdesgin.db/Alie.db";
+        sqliteDatabasePath="data/data/org.alie.dbdesgin/Alie.db";
         sqLiteDatabase= SQLiteDatabase.openOrCreateDatabase(sqliteDatabasePath,null);
     }
 
